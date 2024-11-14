@@ -1,38 +1,33 @@
-# SEMANTIC-HTML
+# Latihan Praktikum Semantic HTML
 
-Latihan Praktikum Semantic HTML
+Proyek ini adalah contoh latihan untuk memahami dan menerapkan Semantic HTML dengan memperbaiki struktur HTML dan CSS agar sesuai standar. Berikut ini adalah analisis kode HTML dan CSS yang telah diperbaiki beserta perubahan yang dilakukan.
 
-### Latihan 1 : Semantic HTML
+---
 
-### Menganalisis kode HTML & CSS 
+## 1. Analisis Kode HTML
 
-### ANALISIS KODE  HTML :
+### Masalah yang Ditemukan:
+1. **Struktur Dasar HTML Tidak Lengkap**: Kode awal tidak menyertakan tag `<html>`, `<head>`, dan `<body>`, yang merupakan elemen penting untuk struktur HTML.
+2. **Penggunaan Tag `<header>` di Luar `<body>`**: Tag `<header>` ditempatkan langsung setelah `<!DOCTYPE html>`, padahal seharusnya berada di dalam tag `<body>`.
+3. **Penempatan Konten yang Tidak Berurutan**: Struktur kode tidak rapi dan beberapa elemen diletakkan di luar konteks yang sesuai.
 
-1. Struktur Dasar HTML yang Tidak Lengkap: Kode ini tidak memiliki elemen <html> dan <body>. Semua dokumen HTML perlu dibungkus dalam tag <html> dan bagian kontennya perlu berada dalam <body>. Selain itu, tag <head> yang     berisi metadata seperti judul halaman, pengaturan karakter, dan referensi CSS juga tidak ada.
+### Perbaikan yang Dilakukan:
+1. **Struktur HTML yang Lengkap**: Menambahkan tag `<html>`, `<head>`, dan `<body>` untuk memberikan kerangka dasar HTML yang benar.
+2. **Lokasi yang Benar untuk `<header>`, `<nav>`, `<section>`, dan `<footer>`**: Semua elemen semantik ditempatkan di dalam `<body>`, sesuai dengan standar HTML5.
+3. **Penambahan Metadata**: Menambahkan `<meta charset="UTF-8">` dan `<meta name="viewport" content="width=device-width, initial-scale=1.0">` untuk mendukung tampilan yang optimal pada berbagai perangkat.
+4. **Menambahkan Tag `<title>`**: Tag `<title>` ditambahkan pada bagian `<head>`, yang penting untuk SEO dan identifikasi halaman.
 
-2. Penggunaan Tag header di Luar body: Tag <header> tidak boleh ditempatkan langsung setelah <!DOCTYPE html>. Seharusnya berada di dalam <body>.
+---
 
-3. Penempatan Konten yang Tidak Berurutan: Kode ini memiliki struktur yang kurang baik, dengan tag yang ditempatkan di luar konteks yang sesuai.
+## 2. Analisis Kode CSS
 
-### Perbedaan Setelah Diperbaiki :
-   
-1. Struktur yang Lengkap: Kode yang telah diperbaiki memiliki tag <html>, <head>, dan <body>, yang memberikan struktur dasar HTML yang lengkap.
+### Masalah yang Ditemukan:
+1. **Kesalahan Penulisan Kurung pada Selector `section`**: Pada selector `section`, terdapat kesalahan dalam penggunaan kurung. Seharusnya kurung `{` digunakan sebagai pembuka.
+2. **Kekurangan Penutupan Kurung Kurawal pada CSS**: Pada selector `header`, `nav`, `section`, dan `footer`, terdapat kesalahan karena tidak menutup deklarasi dengan kurung kurawal `}`.
 
-2. Lokasi yang Benar untuk header, <nav>, <section>, dan <footer>: Setiap tag elemen semantik sekarang berada dalam <body>, sesuai standar HTML5.
+### Perbaikan yang Dilakukan:
+1. **Penulisan Kurung yang Benar pada CSS**: Memastikan bahwa setiap selector membuka dengan `{` dan menutup dengan `}` sesuai sintaks CSS yang benar.
+2. **Perbaikan Properti Layout**: Dengan perbaikan ini, `grid-area` akan mengatur layout halaman dengan benar, setiap elemen akan memiliki padding yang sama, dan tampilan layout akan rapi sesuai desain grid pada bagian `<body>`.
 
-3. Penambahan Metadata: Tag <meta charset="UTF-8"> dan <meta name="viewport"> ditambahkan untuk memastikan tampilan halaman yang optimal di perangkat apa pun.
+---
 
-4. Penambahan <title>: Menambahkan tag <title> pada bagian <head>, yang penting untuk SEO dan identifikasi halaman.
-
-### ANALISIS KODE  CSS :
-
-1. Kesalahan Penulisan Kurung pada Selector section
-   Pada selector section, terdapat kesalahan penulisan tanda kurung. Kurung pembuka ( seharusnya ditulis dengan { agar sesuai dengan sintaks CSS yang benar.
-   css Salin kode.
-
-2. Kekurangan pada Penutupan Properti CSS
-   Pada selector header, nav, section, footer, kode CSS tidak ditutup dengan kurung kurawal }. Hal ini menyebabkan properti padding: 5px; mungkin tidak terbaca dengan benar atau dapat menyebabkan kesalahan dalam penataan     elemen-elemen yang ada.
-
-3. Setelah Diperbaiki
-   Setelah perbaikan dilakukan, kode akan lebih rapi dan dapat berfungsi dengan benar sesuai harapan. grid-area akan mengatur layout halaman dengan benar, dan setiap elemen akan memiliki padding yang sama sehingga tampil     lebih rapi.
-   Dengan struktur yang benar, section akan di-render dengan background sesuai warna yang telah ditentukan, dan tampilan layout secara keseluruhan akan sesuai dengan desain grid yang ditentukan di bagian body.
