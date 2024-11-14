@@ -1,6 +1,7 @@
-Nama: Binar Nur Alimin
-NIM: 2205101093
-Kelas: TIF-5D
+## Nama: Binar Nur Alimin
+## NIM: 2205101093
+## Kelas: TIF-5D
+
 # Latihan Praktikum Semantic HTML
 
 ---
