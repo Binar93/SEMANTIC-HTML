@@ -24,8 +24,6 @@ Latihan Praktikum Semantic HTML
 
 4. Penambahan <title>: Menambahkan tag <title> pada bagian <head>, yang penting untuk SEO dan identifikasi halaman.
 
-5. Peningkatan Keterbacaan Konten: Bagian <section> diperjelas dengan menambahkan elemen <h2> untuk judul dan <p> untuk isi konten.
-
 ### ANALISIS KODE  CSS :
 
 1. Kesalahan Penulisan Kurung pada Selector section
