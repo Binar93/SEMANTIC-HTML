@@ -1,7 +1,5 @@
 # Latihan Praktikum Semantic HTML
 
-Proyek ini adalah contoh latihan untuk memahami dan menerapkan Semantic HTML dengan memperbaiki struktur HTML dan CSS agar sesuai standar. Berikut ini adalah analisis kode HTML dan CSS yang telah diperbaiki beserta perubahan yang dilakukan.
-
 ---
 
 ## 1. Analisis Kode HTML
